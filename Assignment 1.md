@@ -1,10 +1,15 @@
 <center>
-#INFO 5100 Assignment 1
+
+INFO 5100 Assignment 1
+====
 </center>
 
 <p align="right">Yu (Eli) Zhang</p>
+
 ---
-###*1. Design a course management system*
+
+*1.Design a course management system*
+---
 
 **-Course Management System**
 
@@ -75,7 +80,8 @@
 
 ---
 
-###*2.Design a pet adoption platform*
+*2.Design a pet adoption platform*
+---
 
 **-Adoption Platform**
 
@@ -179,7 +185,8 @@
 
 ---
 
-###*3.Design an app to book airline ticket*
+*3.Design an app to book airline ticket*
+---
 
 **-App**
 
@@ -235,7 +242,8 @@
 		enjoy the trip;
 ---
 
-###*4.Design a course registration platform*
+*4.Design a course registration platform*
+---
 
 **-Course Registration Platform**
 
@@ -284,7 +292,8 @@
 
 ---
 
-###*5.Order food in a food delivery app*
+*5.Order food in a food delivery app*
+---
 
 **-Food Delivery App**
 
