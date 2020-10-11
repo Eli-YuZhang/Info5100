@@ -5,7 +5,7 @@ package Assignment4;
 public class KthLargestElement {
 	public int kthLargest(int[] array, int k) {
 		// corner case
-		if (array.length <= 1) {
+		if (array.length < 1) {
 			return 0;
 		}
 		// selection sort
