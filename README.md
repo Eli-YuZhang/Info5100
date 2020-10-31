@@ -1,2 +1,2 @@
-Assignment 5 (due 10.16) is uploaded!
+Assignment 6 (due 10.30) is uploaded!
 ===
