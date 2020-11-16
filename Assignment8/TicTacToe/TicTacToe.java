@@ -88,22 +88,22 @@ public class TicTacToe {
 	// Checks if either player or CPU has won
 	public static String checkWinner() {
 		if ((ticTacToeBoard[0][0] == 'O' && ticTacToeBoard[0][1]  == 'O' && ticTacToeBoard[0][2] == 'O') || // top row
-			(ticTacToeBoard[1][0] == 'O' && ticTacToeBoard[1][1]  == 'O' && ticTacToeBoard[1][2] == 'O') || // middle row
-			(ticTacToeBoard[2][0] == 'O' && ticTacToeBoard[2][1]  == 'O' && ticTacToeBoard[2][2] == 'O') || // bottom row
-            (ticTacToeBoard[0][0] == 'O' && ticTacToeBoard[1][0]  == 'O' && ticTacToeBoard[2][0] == 'O') || // left column
-            (ticTacToeBoard[0][1] == 'O' && ticTacToeBoard[1][1]  == 'O' && ticTacToeBoard[2][1] == 'O') || // middle column
-            (ticTacToeBoard[0][2] == 'O' && ticTacToeBoard[1][2]  == 'O' && ticTacToeBoard[2][2] == 'O') || // right column
-            (ticTacToeBoard[0][0] == 'O' && ticTacToeBoard[1][1]  == 'O' && ticTacToeBoard[2][2] == 'O') || // diagonal1
-            (ticTacToeBoard[0][2] == 'O' && ticTacToeBoard[1][1]  == 'O' && ticTacToeBoard[2][0] == 'O')) { // diagonal2
+		    (ticTacToeBoard[1][0] == 'O' && ticTacToeBoard[1][1]  == 'O' && ticTacToeBoard[1][2] == 'O') || // middle row
+		    (ticTacToeBoard[2][0] == 'O' && ticTacToeBoard[2][1]  == 'O' && ticTacToeBoard[2][2] == 'O') || // bottom row
+           	    (ticTacToeBoard[0][0] == 'O' && ticTacToeBoard[1][0]  == 'O' && ticTacToeBoard[2][0] == 'O') || // left column
+           	    (ticTacToeBoard[0][1] == 'O' && ticTacToeBoard[1][1]  == 'O' && ticTacToeBoard[2][1] == 'O') || // middle column
+            	    (ticTacToeBoard[0][2] == 'O' && ticTacToeBoard[1][2]  == 'O' && ticTacToeBoard[2][2] == 'O') || // right column
+            	    (ticTacToeBoard[0][0] == 'O' && ticTacToeBoard[1][1]  == 'O' && ticTacToeBoard[2][2] == 'O') || // diagonal1
+            	    (ticTacToeBoard[0][2] == 'O' && ticTacToeBoard[1][1]  == 'O' && ticTacToeBoard[2][0] == 'O')) { // diagonal2
 			return "cpu";
 		}else if((ticTacToeBoard[0][0] == 'X' && ticTacToeBoard[0][1]  == 'X' && ticTacToeBoard[0][2] == 'X') || // top row
-			     (ticTacToeBoard[1][0] == 'X' && ticTacToeBoard[1][1]  == 'X' && ticTacToeBoard[1][2] == 'X') || // middle row
-				 (ticTacToeBoard[2][0] == 'X' && ticTacToeBoard[2][1]  == 'X' && ticTacToeBoard[2][2] == 'X') || // bottom row
-	             (ticTacToeBoard[0][0] == 'X' && ticTacToeBoard[1][0]  == 'X' && ticTacToeBoard[2][0] == 'X') || // left column
-	             (ticTacToeBoard[0][1] == 'X' && ticTacToeBoard[1][1]  == 'X' && ticTacToeBoard[2][1] == 'X') || // middle column
-	             (ticTacToeBoard[0][2] == 'X' && ticTacToeBoard[1][2]  == 'X' && ticTacToeBoard[2][2] == 'X') || // right column
-	             (ticTacToeBoard[0][0] == 'X' && ticTacToeBoard[1][1]  == 'X' && ticTacToeBoard[2][2] == 'X') || // diagonal1
-	             (ticTacToeBoard[0][2] == 'X' && ticTacToeBoard[1][1]  == 'X' && ticTacToeBoard[2][0] == 'X')) { // diagonal2
+			 (ticTacToeBoard[1][0] == 'X' && ticTacToeBoard[1][1]  == 'X' && ticTacToeBoard[1][2] == 'X') || // middle row
+			 (ticTacToeBoard[2][0] == 'X' && ticTacToeBoard[2][1]  == 'X' && ticTacToeBoard[2][2] == 'X') || // bottom row
+	                 (ticTacToeBoard[0][0] == 'X' && ticTacToeBoard[1][0]  == 'X' && ticTacToeBoard[2][0] == 'X') || // left column
+	                 (ticTacToeBoard[0][1] == 'X' && ticTacToeBoard[1][1]  == 'X' && ticTacToeBoard[2][1] == 'X') || // middle column
+	                 (ticTacToeBoard[0][2] == 'X' && ticTacToeBoard[1][2]  == 'X' && ticTacToeBoard[2][2] == 'X') || // right column
+	                 (ticTacToeBoard[0][0] == 'X' && ticTacToeBoard[1][1]  == 'X' && ticTacToeBoard[2][2] == 'X') || // diagonal1
+	                 (ticTacToeBoard[0][2] == 'X' && ticTacToeBoard[1][1]  == 'X' && ticTacToeBoard[2][0] == 'X')) { // diagonal2
 			return "player";
 		}else {
 			return " ";
